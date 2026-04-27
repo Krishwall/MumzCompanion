@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "P001",
+    "name_en": "Prenatal Vitamins",
+    "name_ar": "فيتامينات ما قبل الولادة",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 278,
+    "tags": [
+      "prenatal",
+      "vitamins",
+      "health"
+    ],
+    "description_en": "Essential vitamins for early pregnancy.",
+    "description_ar": "فيتامينات أساسية في بداية الحمل.",
+    "in_stock": true
+  },
+  {
+    "id": "P002",
+    "name_en": "Morning Sickness Tea",
+    "name_ar": "شاي غثيان الصباح",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 68,
+    "tags": [
+      "morning_sickness",
+      "tea",
+      "relief"
+    ],
+    "description_en": "Herbal tea to soothe morning sickness.",
+    "description_ar": "شاي عشبي لتهدئة غثيان الصباح.",
+    "in_stock": true
+  },
+  {
+    "id": "P003",
+    "name_en": "Pregnancy Journal",
+    "name_ar": "مذكرات الحمل",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 159,
+    "tags": [
+      "journal",
+      "memory",
+      "pregnancy"
+    ],
+    "description_en": "Track your pregnancy journey.",
+    "description_ar": "تتبعي رحلة حملك.",
+    "in_stock": true
+  },
+  {
+    "id": "P004",
+    "name_en": "Stretch Mark Oil",
+    "name_ar": "زيت لعلامات التمدد",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 212,
+    "tags": [
+      "skincare",
+      "stretch_marks",
+      "oil"
+    ],
+    "description_en": "Nourishing oil for stretching skin.",
+    "description_ar": "زيت مغذي للبشرة المتمددة.",
+    "in_stock": true
+  },
+  {
+    "id": "P005",
+    "name_en": "Nausea Wristbands",
+    "name_ar": "أساور الغثيان",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 247,
+    "tags": [
+      "nausea",
+      "relief",
+      "travel"
+    ],
+    "description_en": "Acupressure bands for nausea relief.",
+    "description_ar": "أساور العلاج بالضغط لتخفيف الغثيان.",
+    "in_stock": true
+  },
+  {
+    "id": "P006",
+    "name_en": "Prenatal Vitamins (Option 2)",
+    "name_ar": "فيتامينات ما قبل الولادة (خيار 2)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 162,
+    "tags": [
+      "prenatal",
+      "vitamins",
+      "health"
+    ],
+    "description_en": "Essential vitamins for early pregnancy.",
+    "description_ar": "فيتامينات أساسية في بداية الحمل.",
+    "in_stock": true
+  },
+  {
+    "id": "P007",
+    "name_en": "Morning Sickness Tea (Option 2)",
+    "name_ar": "شاي غثيان الصباح (خيار 2)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 119,
+    "tags": [
+      "morning_sickness",
+      "tea",
+      "relief"
+    ],
+    "description_en": "Herbal tea to soothe morning sickness.",
+    "description_ar": "شاي عشبي لتهدئة غثيان الصباح.",
+    "in_stock": true
+  },
+  {
+    "id": "P008",
+    "name_en": "Pregnancy Journal (Option 2)",
+    "name_ar": "مذكرات الحمل (خيار 2)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 204,
+    "tags": [
+      "journal",
+      "memory",
+      "pregnancy"
+    ],
+    "description_en": "Track your pregnancy journey.",
+    "description_ar": "تتبعي رحلة حملك.",
+    "in_stock": true
+  },
+  {
+    "id": "P009",
+    "name_en": "Stretch Mark Oil (Option 2)",
+    "name_ar": "زيت لعلامات التمدد (خيار 2)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 201,
+    "tags": [
+      "skincare",
+      "stretch_marks",
+      "oil"
+    ],
+    "description_en": "Nourishing oil for stretching skin.",
+    "description_ar": "زيت مغذي للبشرة المتمددة.",
+    "in_stock": true
+  },
+  {
+    "id": "P010",
+    "name_en": "Nausea Wristbands (Option 2)",
+    "name_ar": "أساور الغثيان (خيار 2)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 122,
+    "tags": [
+      "nausea",
+      "relief",
+      "travel"
+    ],
+    "description_en": "Acupressure bands for nausea relief.",
+    "description_ar": "أساور العلاج بالضغط لتخفيف الغثيان.",
+    "in_stock": true
+  },
+  {
+    "id": "P011",
+    "name_en": "Prenatal Vitamins (Option 3)",
+    "name_ar": "فيتامينات ما قبل الولادة (خيار 3)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 194,
+    "tags": [
+      "prenatal",
+      "vitamins",
+      "health"
+    ],
+    "description_en": "Essential vitamins for early pregnancy.",
+    "description_ar": "فيتامينات أساسية في بداية الحمل.",
+    "in_stock": true
+  },
+  {
+    "id": "P012",
+    "name_en": "Morning Sickness Tea (Option 3)",
+    "name_ar": "شاي غثيان الصباح (خيار 3)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 220,
+    "tags": [
+      "morning_sickness",
+      "tea",
+      "relief"
+    ],
+    "description_en": "Herbal tea to soothe morning sickness.",
+    "description_ar": "شاي عشبي لتهدئة غثيان الصباح.",
+    "in_stock": true
+  },
+  {
+    "id": "P013",
+    "name_en": "Pregnancy Journal (Option 3)",
+    "name_ar": "مذكرات الحمل (خيار 3)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 397,
+    "tags": [
+      "journal",
+      "memory",
+      "pregnancy"
+    ],
+    "description_en": "Track your pregnancy journey.",
+    "description_ar": "تتبعي رحلة حملك.",
+    "in_stock": true
+  },
+  {
+    "id": "P014",
+    "name_en": "Stretch Mark Oil (Option 3)",
+    "name_ar": "زيت لعلامات التمدد (خيار 3)",
+    "stage_tags": [
+      "early_pregnancy"
+    ],
+    "price_aed": 36,
+    "tags": [
+      "skincare",
+      "stretch_marks",
+      "oil"
+    ],
+    "description_en": "Nourishing oil for stretching skin.",
+    "description_ar": "زيت مغذي للبشرة المتمددة.",
+    "in_stock": true
+  },
+  {
+    "id": "P015",
+    "name_en": "Maternity Leggings",
+    "name_ar": "سراويل حمل",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 101,
+    "tags": [
+      "maternity",
+      "clothing",
+      "comfort"
+    ],
+    "description_en": "Comfortable leggings for growing bump.",
+    "description_ar": "سراويل مريحة للبطن المتنامي.",
+    "in_stock": true
+  },
+  {
+    "id": "P016",
+    "name_en": "Pregnancy Pillow",
+    "name_ar": "وسادة الحمل",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 327,
+    "tags": [
+      "sleep",
+      "pillow",
+      "comfort",
+      "back_pain"
+    ],
+    "description_en": "U-shaped pillow for better sleep.",
+    "description_ar": "وسادة على شكل حرف U لنوم أفضل.",
+    "in_stock": true
+  },
+  {
+    "id": "P017",
+    "name_en": "Belly Support Band",
+    "name_ar": "حزام دعم البطن",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 252,
+    "tags": [
+      "support",
+      "band",
+      "back_pain"
+    ],
+    "description_en": "Provides support for your lower back.",
+    "description_ar": "يوفر الدعم لأسفل الظهر.",
+    "in_stock": true
+  },
+  {
+    "id": "P018",
+    "name_en": "Doppler Fetal Monitor",
+    "name_ar": "جهاز دوبلر لمراقبة الجنين",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 271,
+    "tags": [
+      "monitor",
+      "health",
+      "doppler"
+    ],
+    "description_en": "Listen to your baby's heartbeat.",
+    "description_ar": "استمعي لنبضات قلب طفلك.",
+    "in_stock": true
+  },
+  {
+    "id": "P019",
+    "name_en": "Maternity Dress",
+    "name_ar": "فستان حمل",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 143,
+    "tags": [
+      "maternity",
+      "clothing",
+      "dress"
+    ],
+    "description_en": "Elegant and comfortable maternity dress.",
+    "description_ar": "فستان حمل أنيق ومريح.",
+    "in_stock": true
+  },
+  {
+    "id": "P020",
+    "name_en": "Maternity Leggings (Option 2)",
+    "name_ar": "سراويل حمل (خيار 2)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 34,
+    "tags": [
+      "maternity",
+      "clothing",
+      "comfort"
+    ],
+    "description_en": "Comfortable leggings for growing bump.",
+    "description_ar": "سراويل مريحة للبطن المتنامي.",
+    "in_stock": true
+  },
+  {
+    "id": "P021",
+    "name_en": "Pregnancy Pillow (Option 2)",
+    "name_ar": "وسادة الحمل (خيار 2)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 103,
+    "tags": [
+      "sleep",
+      "pillow",
+      "comfort",
+      "back_pain"
+    ],
+    "description_en": "U-shaped pillow for better sleep.",
+    "description_ar": "وسادة على شكل حرف U لنوم أفضل.",
+    "in_stock": true
+  },
+  {
+    "id": "P022",
+    "name_en": "Belly Support Band (Option 2)",
+    "name_ar": "حزام دعم البطن (خيار 2)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 69,
+    "tags": [
+      "support",
+      "band",
+      "back_pain"
+    ],
+    "description_en": "Provides support for your lower back.",
+    "description_ar": "يوفر الدعم لأسفل الظهر.",
+    "in_stock": true
+  },
+  {
+    "id": "P023",
+    "name_en": "Doppler Fetal Monitor (Option 2)",
+    "name_ar": "جهاز دوبلر لمراقبة الجنين (خيار 2)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 54,
+    "tags": [
+      "monitor",
+      "health",
+      "doppler"
+    ],
+    "description_en": "Listen to your baby's heartbeat.",
+    "description_ar": "استمعي لنبضات قلب طفلك.",
+    "in_stock": true
+  },
+  {
+    "id": "P024",
+    "name_en": "Maternity Dress (Option 2)",
+    "name_ar": "فستان حمل (خيار 2)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 73,
+    "tags": [
+      "maternity",
+      "clothing",
+      "dress"
+    ],
+    "description_en": "Elegant and comfortable maternity dress.",
+    "description_ar": "فستان حمل أنيق ومريح.",
+    "in_stock": true
+  },
+  {
+    "id": "P025",
+    "name_en": "Maternity Leggings (Option 3)",
+    "name_ar": "سراويل حمل (خيار 3)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 113,
+    "tags": [
+      "maternity",
+      "clothing",
+      "comfort"
+    ],
+    "description_en": "Comfortable leggings for growing bump.",
+    "description_ar": "سراويل مريحة للبطن المتنامي.",
+    "in_stock": true
+  },
+  {
+    "id": "P026",
+    "name_en": "Pregnancy Pillow (Option 3)",
+    "name_ar": "وسادة الحمل (خيار 3)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 159,
+    "tags": [
+      "sleep",
+      "pillow",
+      "comfort",
+      "back_pain"
+    ],
+    "description_en": "U-shaped pillow for better sleep.",
+    "description_ar": "وسادة على شكل حرف U لنوم أفضل.",
+    "in_stock": true
+  },
+  {
+    "id": "P027",
+    "name_en": "Belly Support Band (Option 3)",
+    "name_ar": "حزام دعم البطن (خيار 3)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 384,
+    "tags": [
+      "support",
+      "band",
+      "back_pain"
+    ],
+    "description_en": "Provides support for your lower back.",
+    "description_ar": "يوفر الدعم لأسفل الظهر.",
+    "in_stock": true
+  },
+  {
+    "id": "P028",
+    "name_en": "Doppler Fetal Monitor (Option 3)",
+    "name_ar": "جهاز دوبلر لمراقبة الجنين (خيار 3)",
+    "stage_tags": [
+      "mid_pregnancy"
+    ],
+    "price_aed": 372,
+    "tags": [
+      "monitor",
+      "health",
+      "doppler"
+    ],
+    "description_en": "Listen to your baby's heartbeat.",
+    "description_ar": "استمعي لنبضات قلب طفلك.",
+    "in_stock": true
+  },
+  {
+    "id": "P029",
+    "name_en": "Hospital Bag Organizer",
+    "name_ar": "منظم حقيبة المستشفى",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 348,
+    "tags": [
+      "hospital",
+      "organizer",
+      "preparation"
+    ],
+    "description_en": "Get ready for the big day.",
+    "description_ar": "استعدي لليوم الكبير.",
+    "in_stock": true
+  },
+  {
+    "id": "P030",
+    "name_en": "Nursing Bras 3-Pack",
+    "name_ar": "حمالات صدر للرضاعة",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 276,
+    "tags": [
+      "nursing",
+      "clothing",
+      "bra"
+    ],
+    "description_en": "Comfortable bras for nursing.",
+    "description_ar": "حمالات صدر مريحة للرضاعة.",
+    "in_stock": true
+  },
+  {
+    "id": "P031",
+    "name_en": "Perineal Spray",
+    "name_ar": "بخاخ العجان",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 381,
+    "tags": [
+      "postpartum",
+      "recovery",
+      "spray"
+    ],
+    "description_en": "Cooling spray for postpartum recovery.",
+    "description_ar": "بخاخ مبرد للتعافي بعد الولادة.",
+    "in_stock": true
+  },
+  {
+    "id": "P032",
+    "name_en": "Birthing Ball",
+    "name_ar": "كرة الولادة",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 299,
+    "tags": [
+      "birth",
+      "exercise",
+      "ball"
+    ],
+    "description_en": "Helps with labor positioning.",
+    "description_ar": "يساعد في وضعيات المخاض.",
+    "in_stock": true
+  },
+  {
+    "id": "P033",
+    "name_en": "Maternity Pads",
+    "name_ar": "فوط صحية للولادة",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 327,
+    "tags": [
+      "postpartum",
+      "hygiene",
+      "pads"
+    ],
+    "description_en": "Extra absorbent for postpartum use.",
+    "description_ar": "فائقة الامتصاص للاستخدام بعد الولادة.",
+    "in_stock": true
+  },
+  {
+    "id": "P034",
+    "name_en": "Hospital Bag Organizer (Option 2)",
+    "name_ar": "منظم حقيبة المستشفى (خيار 2)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 149,
+    "tags": [
+      "hospital",
+      "organizer",
+      "preparation"
+    ],
+    "description_en": "Get ready for the big day.",
+    "description_ar": "استعدي لليوم الكبير.",
+    "in_stock": true
+  },
+  {
+    "id": "P035",
+    "name_en": "Nursing Bras 3-Pack (Option 2)",
+    "name_ar": "حمالات صدر للرضاعة (خيار 2)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 331,
+    "tags": [
+      "nursing",
+      "clothing",
+      "bra"
+    ],
+    "description_en": "Comfortable bras for nursing.",
+    "description_ar": "حمالات صدر مريحة للرضاعة.",
+    "in_stock": true
+  },
+  {
+    "id": "P036",
+    "name_en": "Perineal Spray (Option 2)",
+    "name_ar": "بخاخ العجان (خيار 2)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 85,
+    "tags": [
+      "postpartum",
+      "recovery",
+      "spray"
+    ],
+    "description_en": "Cooling spray for postpartum recovery.",
+    "description_ar": "بخاخ مبرد للتعافي بعد الولادة.",
+    "in_stock": true
+  },
+  {
+    "id": "P037",
+    "name_en": "Birthing Ball (Option 2)",
+    "name_ar": "كرة الولادة (خيار 2)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 50,
+    "tags": [
+      "birth",
+      "exercise",
+      "ball"
+    ],
+    "description_en": "Helps with labor positioning.",
+    "description_ar": "يساعد في وضعيات المخاض.",
+    "in_stock": true
+  },
+  {
+    "id": "P038",
+    "name_en": "Maternity Pads (Option 2)",
+    "name_ar": "فوط صحية للولادة (خيار 2)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 266,
+    "tags": [
+      "postpartum",
+      "hygiene",
+      "pads"
+    ],
+    "description_en": "Extra absorbent for postpartum use.",
+    "description_ar": "فائقة الامتصاص للاستخدام بعد الولادة.",
+    "in_stock": true
+  },
+  {
+    "id": "P039",
+    "name_en": "Hospital Bag Organizer (Option 3)",
+    "name_ar": "منظم حقيبة المستشفى (خيار 3)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 90,
+    "tags": [
+      "hospital",
+      "organizer",
+      "preparation"
+    ],
+    "description_en": "Get ready for the big day.",
+    "description_ar": "استعدي لليوم الكبير.",
+    "in_stock": true
+  },
+  {
+    "id": "P040",
+    "name_en": "Nursing Bras 3-Pack (Option 3)",
+    "name_ar": "حمالات صدر للرضاعة (خيار 3)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 290,
+    "tags": [
+      "nursing",
+      "clothing",
+      "bra"
+    ],
+    "description_en": "Comfortable bras for nursing.",
+    "description_ar": "حمالات صدر مريحة للرضاعة.",
+    "in_stock": true
+  },
+  {
+    "id": "P041",
+    "name_en": "Perineal Spray (Option 3)",
+    "name_ar": "بخاخ العجان (خيار 3)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 215,
+    "tags": [
+      "postpartum",
+      "recovery",
+      "spray"
+    ],
+    "description_en": "Cooling spray for postpartum recovery.",
+    "description_ar": "بخاخ مبرد للتعافي بعد الولادة.",
+    "in_stock": true
+  },
+  {
+    "id": "P042",
+    "name_en": "Birthing Ball (Option 3)",
+    "name_ar": "كرة الولادة (خيار 3)",
+    "stage_tags": [
+      "late_pregnancy"
+    ],
+    "price_aed": 205,
+    "tags": [
+      "birth",
+      "exercise",
+      "ball"
+    ],
+    "description_en": "Helps with labor positioning.",
+    "description_ar": "يساعد في وضعيات المخاض.",
+    "in_stock": true
+  },
+  {
+    "id": "P043",
+    "name_en": "Ergobaby Newborn Carrier",
+    "name_ar": "حامل المواليد",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 176,
+    "tags": [
+      "carrier",
+      "travel",
+      "bonding"
+    ],
+    "description_en": "Hands-free carrier for newborns.",
+    "description_ar": "حامل للمواليد بدون استخدام اليدين.",
+    "in_stock": true
+  },
+  {
+    "id": "P044",
+    "name_en": "Newborn Diapers Pack",
+    "name_ar": "حفاضات حديثي الولادة",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 51,
+    "tags": [
+      "diapers",
+      "hygiene"
+    ],
+    "description_en": "Soft diapers for sensitive skin.",
+    "description_ar": "حفاضات ناعمة للبشرة الحساسة.",
+    "in_stock": true
+  },
+  {
+    "id": "P045",
+    "name_en": "Swaddle Blankets",
+    "name_ar": "بطانيات التقميط",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 61,
+    "tags": [
+      "swaddle",
+      "sleep",
+      "blanket"
+    ],
+    "description_en": "Organic cotton swaddles.",
+    "description_ar": "قماطات من القطن العضوي.",
+    "in_stock": true
+  },
+  {
+    "id": "P046",
+    "name_en": "White Noise Machine",
+    "name_ar": "آلة الضوضاء البيضاء",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 178,
+    "tags": [
+      "sleep",
+      "sound",
+      "machine"
+    ],
+    "description_en": "Helps newborn sleep soundly.",
+    "description_ar": "تساعد حديثي الولادة على النوم بعمق.",
+    "in_stock": true
+  },
+  {
+    "id": "P047",
+    "name_en": "Diaper Rash Cream",
+    "name_ar": "كريم طفح الحفاض",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 273,
+    "tags": [
+      "skincare",
+      "cream",
+      "healing"
+    ],
+    "description_en": "Soothes and protects baby skin.",
+    "description_ar": "يهدئ ويحمي بشرة الطفل.",
+    "in_stock": true
+  },
+  {
+    "id": "P048",
+    "name_en": "Ergobaby Newborn Carrier (Option 2)",
+    "name_ar": "حامل المواليد (خيار 2)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 347,
+    "tags": [
+      "carrier",
+      "travel",
+      "bonding"
+    ],
+    "description_en": "Hands-free carrier for newborns.",
+    "description_ar": "حامل للمواليد بدون استخدام اليدين.",
+    "in_stock": true
+  },
+  {
+    "id": "P049",
+    "name_en": "Newborn Diapers Pack (Option 2)",
+    "name_ar": "حفاضات حديثي الولادة (خيار 2)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 374,
+    "tags": [
+      "diapers",
+      "hygiene"
+    ],
+    "description_en": "Soft diapers for sensitive skin.",
+    "description_ar": "حفاضات ناعمة للبشرة الحساسة.",
+    "in_stock": true
+  },
+  {
+    "id": "P050",
+    "name_en": "Swaddle Blankets (Option 2)",
+    "name_ar": "بطانيات التقميط (خيار 2)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 209,
+    "tags": [
+      "swaddle",
+      "sleep",
+      "blanket"
+    ],
+    "description_en": "Organic cotton swaddles.",
+    "description_ar": "قماطات من القطن العضوي.",
+    "in_stock": true
+  },
+  {
+    "id": "P051",
+    "name_en": "White Noise Machine (Option 2)",
+    "name_ar": "آلة الضوضاء البيضاء (خيار 2)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 264,
+    "tags": [
+      "sleep",
+      "sound",
+      "machine"
+    ],
+    "description_en": "Helps newborn sleep soundly.",
+    "description_ar": "تساعد حديثي الولادة على النوم بعمق.",
+    "in_stock": true
+  },
+  {
+    "id": "P052",
+    "name_en": "Diaper Rash Cream (Option 2)",
+    "name_ar": "كريم طفح الحفاض (خيار 2)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 36,
+    "tags": [
+      "skincare",
+      "cream",
+      "healing"
+    ],
+    "description_en": "Soothes and protects baby skin.",
+    "description_ar": "يهدئ ويحمي بشرة الطفل.",
+    "in_stock": true
+  },
+  {
+    "id": "P053",
+    "name_en": "Ergobaby Newborn Carrier (Option 3)",
+    "name_ar": "حامل المواليد (خيار 3)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 60,
+    "tags": [
+      "carrier",
+      "travel",
+      "bonding"
+    ],
+    "description_en": "Hands-free carrier for newborns.",
+    "description_ar": "حامل للمواليد بدون استخدام اليدين.",
+    "in_stock": true
+  },
+  {
+    "id": "P054",
+    "name_en": "Newborn Diapers Pack (Option 3)",
+    "name_ar": "حفاضات حديثي الولادة (خيار 3)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 180,
+    "tags": [
+      "diapers",
+      "hygiene"
+    ],
+    "description_en": "Soft diapers for sensitive skin.",
+    "description_ar": "حفاضات ناعمة للبشرة الحساسة.",
+    "in_stock": true
+  },
+  {
+    "id": "P055",
+    "name_en": "Swaddle Blankets (Option 3)",
+    "name_ar": "بطانيات التقميط (خيار 3)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 379,
+    "tags": [
+      "swaddle",
+      "sleep",
+      "blanket"
+    ],
+    "description_en": "Organic cotton swaddles.",
+    "description_ar": "قماطات من القطن العضوي.",
+    "in_stock": true
+  },
+  {
+    "id": "P056",
+    "name_en": "White Noise Machine (Option 3)",
+    "name_ar": "آلة الضوضاء البيضاء (خيار 3)",
+    "stage_tags": [
+      "newborn"
+    ],
+    "price_aed": 331,
+    "tags": [
+      "sleep",
+      "sound",
+      "machine"
+    ],
+    "description_en": "Helps newborn sleep soundly.",
+    "description_ar": "تساعد حديثي الولادة على النوم بعمق.",
+    "in_stock": true
+  },
+  {
+    "id": "P057",
+    "name_en": "Activity Gym",
+    "name_ar": "صالة ألعاب للرضع",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 138,
+    "tags": [
+      "play",
+      "development",
+      "gym"
+    ],
+    "description_en": "Interactive play mat for tummy time.",
+    "description_ar": "سجادة لعب تفاعلية لوقت الاستلقاء على البطن.",
+    "in_stock": true
+  },
+  {
+    "id": "P058",
+    "name_en": "Teething Toys",
+    "name_ar": "ألعاب التسنين",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 221,
+    "tags": [
+      "teething",
+      "toys",
+      "relief"
+    ],
+    "description_en": "Silicone toys to soothe gums.",
+    "description_ar": "ألعاب سيليكون لتهدئة اللثة.",
+    "in_stock": true
+  },
+  {
+    "id": "P059",
+    "name_en": "High Chair",
+    "name_ar": "كرسي طعام",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 270,
+    "tags": [
+      "feeding",
+      "chair",
+      "solids"
+    ],
+    "description_en": "Easy-to-clean high chair.",
+    "description_ar": "كرسي طعام سهل التنظيف.",
+    "in_stock": true
+  },
+  {
+    "id": "P060",
+    "name_en": "Soft Spoons",
+    "name_ar": "ملاعق ناعمة",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 272,
+    "tags": [
+      "feeding",
+      "utensils",
+      "solids"
+    ],
+    "description_en": "Gentle on infant gums.",
+    "description_ar": "لطيفة على لثة الرضع.",
+    "in_stock": true
+  },
+  {
+    "id": "P061",
+    "name_en": "Baby Monitor",
+    "name_ar": "جهاز مراقبة الطفل",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 181,
+    "tags": [
+      "safety",
+      "monitor",
+      "camera"
+    ],
+    "description_en": "Keep an eye on your infant.",
+    "description_ar": "راقبي طفلك الرضيع.",
+    "in_stock": true
+  },
+  {
+    "id": "P062",
+    "name_en": "Activity Gym (Option 2)",
+    "name_ar": "صالة ألعاب للرضع (خيار 2)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 287,
+    "tags": [
+      "play",
+      "development",
+      "gym"
+    ],
+    "description_en": "Interactive play mat for tummy time.",
+    "description_ar": "سجادة لعب تفاعلية لوقت الاستلقاء على البطن.",
+    "in_stock": true
+  },
+  {
+    "id": "P063",
+    "name_en": "Teething Toys (Option 2)",
+    "name_ar": "ألعاب التسنين (خيار 2)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 306,
+    "tags": [
+      "teething",
+      "toys",
+      "relief"
+    ],
+    "description_en": "Silicone toys to soothe gums.",
+    "description_ar": "ألعاب سيليكون لتهدئة اللثة.",
+    "in_stock": true
+  },
+  {
+    "id": "P064",
+    "name_en": "High Chair (Option 2)",
+    "name_ar": "كرسي طعام (خيار 2)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 328,
+    "tags": [
+      "feeding",
+      "chair",
+      "solids"
+    ],
+    "description_en": "Easy-to-clean high chair.",
+    "description_ar": "كرسي طعام سهل التنظيف.",
+    "in_stock": true
+  },
+  {
+    "id": "P065",
+    "name_en": "Soft Spoons (Option 2)",
+    "name_ar": "ملاعق ناعمة (خيار 2)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 317,
+    "tags": [
+      "feeding",
+      "utensils",
+      "solids"
+    ],
+    "description_en": "Gentle on infant gums.",
+    "description_ar": "لطيفة على لثة الرضع.",
+    "in_stock": true
+  },
+  {
+    "id": "P066",
+    "name_en": "Baby Monitor (Option 2)",
+    "name_ar": "جهاز مراقبة الطفل (خيار 2)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 237,
+    "tags": [
+      "safety",
+      "monitor",
+      "camera"
+    ],
+    "description_en": "Keep an eye on your infant.",
+    "description_ar": "راقبي طفلك الرضيع.",
+    "in_stock": true
+  },
+  {
+    "id": "P067",
+    "name_en": "Activity Gym (Option 3)",
+    "name_ar": "صالة ألعاب للرضع (خيار 3)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 350,
+    "tags": [
+      "play",
+      "development",
+      "gym"
+    ],
+    "description_en": "Interactive play mat for tummy time.",
+    "description_ar": "سجادة لعب تفاعلية لوقت الاستلقاء على البطن.",
+    "in_stock": true
+  },
+  {
+    "id": "P068",
+    "name_en": "Teething Toys (Option 3)",
+    "name_ar": "ألعاب التسنين (خيار 3)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 85,
+    "tags": [
+      "teething",
+      "toys",
+      "relief"
+    ],
+    "description_en": "Silicone toys to soothe gums.",
+    "description_ar": "ألعاب سيليكون لتهدئة اللثة.",
+    "in_stock": true
+  },
+  {
+    "id": "P069",
+    "name_en": "High Chair (Option 3)",
+    "name_ar": "كرسي طعام (خيار 3)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 230,
+    "tags": [
+      "feeding",
+      "chair",
+      "solids"
+    ],
+    "description_en": "Easy-to-clean high chair.",
+    "description_ar": "كرسي طعام سهل التنظيف.",
+    "in_stock": true
+  },
+  {
+    "id": "P070",
+    "name_en": "Soft Spoons (Option 3)",
+    "name_ar": "ملاعق ناعمة (خيار 3)",
+    "stage_tags": [
+      "infant"
+    ],
+    "price_aed": 340,
+    "tags": [
+      "feeding",
+      "utensils",
+      "solids"
+    ],
+    "description_en": "Gentle on infant gums.",
+    "description_ar": "لطيفة على لثة الرضع.",
+    "in_stock": true
+  },
+  {
+    "id": "P071",
+    "name_en": "Walker Toy",
+    "name_ar": "لعبة مشاية",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 83,
+    "tags": [
+      "walking",
+      "development",
+      "toy"
+    ],
+    "description_en": "Helps baby take first steps.",
+    "description_ar": "تساعد الطفل على اتخاذ خطواته الأولى.",
+    "in_stock": true
+  },
+  {
+    "id": "P072",
+    "name_en": "Sippy Cups",
+    "name_ar": "أكواب الشرب",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 191,
+    "tags": [
+      "feeding",
+      "cup",
+      "transition"
+    ],
+    "description_en": "Spill-proof transition cups.",
+    "description_ar": "أكواب انتقال مانعة للانسكاب.",
+    "in_stock": true
+  },
+  {
+    "id": "P073",
+    "name_en": "Stacking Blocks",
+    "name_ar": "مكعبات التكديس",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 355,
+    "tags": [
+      "play",
+      "development",
+      "blocks"
+    ],
+    "description_en": "Develops fine motor skills.",
+    "description_ar": "تطور المهارات الحركية الدقيقة.",
+    "in_stock": true
+  },
+  {
+    "id": "P074",
+    "name_en": "Baby Proofing Kit",
+    "name_ar": "مجموعة حماية الطفل",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 320,
+    "tags": [
+      "safety",
+      "proofing",
+      "home"
+    ],
+    "description_en": "Childproof your home.",
+    "description_ar": "اجعلي منزلك آمناً للطفل.",
+    "in_stock": true
+  },
+  {
+    "id": "P075",
+    "name_en": "Bath Toys Set",
+    "name_ar": "مجموعة ألعاب الاستحمام",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 241,
+    "tags": [
+      "bath",
+      "toys",
+      "fun"
+    ],
+    "description_en": "Makes bath time fun.",
+    "description_ar": "تجعل وقت الاستحمام ممتعاً.",
+    "in_stock": true
+  },
+  {
+    "id": "P076",
+    "name_en": "Walker Toy (Option 2)",
+    "name_ar": "لعبة مشاية (خيار 2)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 342,
+    "tags": [
+      "walking",
+      "development",
+      "toy"
+    ],
+    "description_en": "Helps baby take first steps.",
+    "description_ar": "تساعد الطفل على اتخاذ خطواته الأولى.",
+    "in_stock": true
+  },
+  {
+    "id": "P077",
+    "name_en": "Sippy Cups (Option 2)",
+    "name_ar": "أكواب الشرب (خيار 2)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 379,
+    "tags": [
+      "feeding",
+      "cup",
+      "transition"
+    ],
+    "description_en": "Spill-proof transition cups.",
+    "description_ar": "أكواب انتقال مانعة للانسكاب.",
+    "in_stock": true
+  },
+  {
+    "id": "P078",
+    "name_en": "Stacking Blocks (Option 2)",
+    "name_ar": "مكعبات التكديس (خيار 2)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 31,
+    "tags": [
+      "play",
+      "development",
+      "blocks"
+    ],
+    "description_en": "Develops fine motor skills.",
+    "description_ar": "تطور المهارات الحركية الدقيقة.",
+    "in_stock": true
+  },
+  {
+    "id": "P079",
+    "name_en": "Baby Proofing Kit (Option 2)",
+    "name_ar": "مجموعة حماية الطفل (خيار 2)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 354,
+    "tags": [
+      "safety",
+      "proofing",
+      "home"
+    ],
+    "description_en": "Childproof your home.",
+    "description_ar": "اجعلي منزلك آمناً للطفل.",
+    "in_stock": true
+  },
+  {
+    "id": "P080",
+    "name_en": "Bath Toys Set (Option 2)",
+    "name_ar": "مجموعة ألعاب الاستحمام (خيار 2)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 206,
+    "tags": [
+      "bath",
+      "toys",
+      "fun"
+    ],
+    "description_en": "Makes bath time fun.",
+    "description_ar": "تجعل وقت الاستحمام ممتعاً.",
+    "in_stock": true
+  },
+  {
+    "id": "P081",
+    "name_en": "Walker Toy (Option 3)",
+    "name_ar": "لعبة مشاية (خيار 3)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 133,
+    "tags": [
+      "walking",
+      "development",
+      "toy"
+    ],
+    "description_en": "Helps baby take first steps.",
+    "description_ar": "تساعد الطفل على اتخاذ خطواته الأولى.",
+    "in_stock": true
+  },
+  {
+    "id": "P082",
+    "name_en": "Sippy Cups (Option 3)",
+    "name_ar": "أكواب الشرب (خيار 3)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 78,
+    "tags": [
+      "feeding",
+      "cup",
+      "transition"
+    ],
+    "description_en": "Spill-proof transition cups.",
+    "description_ar": "أكواب انتقال مانعة للانسكاب.",
+    "in_stock": true
+  },
+  {
+    "id": "P083",
+    "name_en": "Stacking Blocks (Option 3)",
+    "name_ar": "مكعبات التكديس (خيار 3)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 95,
+    "tags": [
+      "play",
+      "development",
+      "blocks"
+    ],
+    "description_en": "Develops fine motor skills.",
+    "description_ar": "تطور المهارات الحركية الدقيقة.",
+    "in_stock": true
+  },
+  {
+    "id": "P084",
+    "name_en": "Baby Proofing Kit (Option 3)",
+    "name_ar": "مجموعة حماية الطفل (خيار 3)",
+    "stage_tags": [
+      "older_infant"
+    ],
+    "price_aed": 140,
+    "tags": [
+      "safety",
+      "proofing",
+      "home"
+    ],
+    "description_en": "Childproof your home.",
+    "description_ar": "اجعلي منزلك آمناً للطفل.",
+    "in_stock": true
+  }
+]

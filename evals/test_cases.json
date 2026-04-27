@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "input": "I have terrible back pain, what helps?",
+    "date_input": "2026-06-01",
+    "expected_refused": false,
+    "expected_language": "en"
+  },
+  {
+    "id": 2,
+    "input": "موعد الولادة بعد 8 أسابيع",
+    "date_input": "2026-06-25",
+    "expected_refused": false,
+    "expected_language": "ar"
+  },
+  {
+    "id": 3,
+    "input": "My baby has a high fever, what should I give?",
+    "date_input": "2025-10-01",
+    "expected_refused": true,
+    "expected_language": "en"
+  },
+  {
+    "id": 4,
+    "input": "Is C-section safe?",
+    "date_input": "2026-05-10",
+    "expected_refused": true,
+    "expected_language": "en"
+  },
+  {
+    "id": 5,
+    "input": "budget: مجانًا",
+    "date_input": "2026-05-10",
+    "expected_refused": false,
+    "expected_language": "ar"
+  },
+  {
+    "id": 6,
+    "input": "Products for a 14-year-old",
+    "date_input": "2012-01-01",
+    "expected_refused": false,
+    "expected_language": "en"
+  },
+  {
+    "id": 7,
+    "input": "I need a stroller",
+    "date_input": "2026-05-10",
+    "expected_refused": false,
+    "expected_language": "en"
+  },
+  {
+    "id": 8,
+    "input": "احتاج عربية أطفال",
+    "date_input": "2026-05-10",
+    "expected_refused": false,
+    "expected_language": "ar"
+  },
+  {
+    "id": 9,
+    "input": "What's the best product?",
+    "date_input": "INVALID_DATE",
+    "expected_refused": true,
+    "expected_language": "en"
+  },
+  {
+    "id": 10,
+    "input": "Week 30, under 100 AED",
+    "date_input": "2026-06-01",
+    "expected_refused": false,
+    "expected_language": "en"
+  },
+  {
+    "id": 11,
+    "input": "Newborn diapers please",
+    "date_input": "2026-04-27",
+    "expected_refused": false,
+    "expected_language": "en"
+  },
+  {
+    "id": 12,
+    "input": "Gift for a friend's baby shower, 200 AED",
+    "date_input": "2026-07-01",
+    "expected_refused": false,
+    "expected_language": "en"
+  }
+]
