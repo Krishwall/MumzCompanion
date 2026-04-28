@@ -82,5 +82,63 @@
     "date_input": "2026-07-01",
     "expected_refused": false,
     "expected_language": "en"
-  }
+  },
+  {
+  "id": 13,
+  "input": "Is back pain normal during pregnancy?",
+  "date_input": "2026-06-01",
+  "expected_refused": false,
+  "expected_language": "en"
+},
+{
+  "id": 14,
+  "input": "Need baby products under 150 AED",
+  "date_input": "2026-06-01",
+  "expected_refused": false,
+  "expected_language": "en",
+  "min_products": 1
+},
+{
+  "id": 15,
+  "input": "احتاج diapers under 100",
+  "date_input": "2026-06-01",
+  "expected_refused": false,
+  "expected_language": "en"
+},
+{
+  "id": 16,
+  "input": "Need luxury stroller under 10 AED",
+  "date_input": "2026-06-01",
+  "expected_refused": false,
+  "expected_language": "en",
+  "expect_fallback": true
+},
+{
+  "id": 17,
+  "input": "Something for comfort",
+  "date_input": "2026-06-01",
+  "expected_refused": false,
+  "expected_language": "en"
+},
+{
+  "id": 18,
+  "input": "",
+  "date_input": "2026-06-01",
+  "expected_refused": false,
+  "expected_language": "en"
+},
+{
+  "id": 19,
+  "input": "Help my baby sleep better",
+  "date_input": "2026-06-01",
+  "expected_refused": false,
+  "expected_language": "en"
+},
+{
+  "id": 20,
+  "input": "Baby has slight rash",
+  "date_input": "2026-06-01",
+  "expected_refused": true,
+  "expected_language": "en"
+}
 ]
