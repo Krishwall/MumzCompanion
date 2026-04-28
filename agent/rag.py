@@ -6,6 +6,16 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("all-MiniLM-L6-v2")
 client = chromadb.Client()
 
+# Adjacent stages — products from nearby stages are still relevant
+ADJACENT_STAGES = {
+    "early_pregnancy": ["mid_pregnancy"],
+    "mid_pregnancy": ["early_pregnancy", "late_pregnancy"],
+    "late_pregnancy": ["mid_pregnancy"],
+    "newborn": ["infant", "late_pregnancy"],
+    "infant": ["newborn", "older_infant"],
+    "older_infant": ["infant"],
+}
+
 def search_products(intent_query, stage_bucket, budget=None, category=None, top_k=5):
     try:
         collection = client.get_collection("products")
@@ -28,17 +38,16 @@ def search_products(intent_query, stage_bucket, budget=None, category=None, top_
     if not results or not results["documents"]:
         return []
 
+    adjacent = ADJACENT_STAGES.get(stage_bucket, [])
+
     for doc, dist in zip(results["documents"][0], results["distances"][0]):
         item = json.loads(doc)
 
-        # -----------------------------
-        # FILTERING
-        # -----------------------------
-        if stage_bucket not in item.get("stage_tags", []):
-            continue
-
         price = item.get("price_aed", 0)
 
+        # -----------------------------
+        # HARD FILTER (budget only)
+        # -----------------------------
         if budget is not None and price > budget:
             continue
 
@@ -49,13 +58,20 @@ def search_products(intent_query, stage_bucket, budget=None, category=None, top_
 
         rule_score = 0.0
 
+        # 🏷️ Stage boost (soft, not a hard filter)
+        product_stages = item.get("stage_tags", [])
+        if stage_bucket in product_stages:
+            rule_score += 0.3  # exact stage match
+        elif any(s in product_stages for s in adjacent):
+            rule_score += 0.15  # adjacent stage — still relevant
+        # else: no boost, but product is NOT discarded
+
         # 🎯 Category boost
         if category and category.lower() in " ".join(item.get("tags", [])).lower():
             rule_score += 0.25
 
         # 💸 Budget closeness boost
         if budget:
-            # closer to budget → higher score
             budget_score = 1 - abs(price - budget) / max(budget, 1)
             rule_score += max(0, budget_score) * 0.2
 

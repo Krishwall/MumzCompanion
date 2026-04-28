@@ -2,9 +2,21 @@ from agent.stage_calculator import get_stage
 from agent.tools import classify_safety, extract_intent, generate_insight, detect_language
 from agent.rag import search_products
 from agent.schemas import MumzCompanionResponse, WeeklyInsight, ProductResult
+from agent.memory import add_message, get_history
 
-def run_agent(user_input, date_input):
+
+def run_agent(user_input, date_input,user_id="default_user"):
     lang = detect_language(user_input)
+    history = get_history(user_id)
+
+
+    # Combine last messages
+    context = "\n".join([
+    f"{msg['role']}: {msg['content']}"
+    for msg in history
+])
+
+    combined_input = context + f"\nuser: {user_input}"
 
     # -----------------------------
     # STAGE DETECTION
@@ -57,7 +69,7 @@ def run_agent(user_input, date_input):
     # -----------------------------
     # INTENT EXTRACTION
     # -----------------------------
-    intent = extract_intent(user_input, lang)
+    intent = extract_intent(combined_input, lang)
     budget = intent.get("budget")
     category = intent.get("category")
     concern = intent.get("concern")
@@ -72,7 +84,7 @@ def run_agent(user_input, date_input):
     # PRODUCT SEARCH (UPGRADED)
     # -----------------------------
     raw_products = search_products(
-        user_input,
+        combined_input,
         stage_bucket,
         budget=budget,
         category=category
@@ -116,12 +128,31 @@ def run_agent(user_input, date_input):
     # -----------------------------
     # FINAL RESPONSE
     # -----------------------------
-    return MumzCompanionResponse(
-        input_language=lang,
-        stage_bucket=stage_bucket,
-        timeline_insight=insight,
-        products=products,
-        follow_up_prompt=follow_up,
-        refused=False,
-        disclaimer="These are product suggestions for comfort — please consult your doctor if symptoms persist." if is_mild_medical else None
-    )
+    response = MumzCompanionResponse(
+    input_language=lang,
+    stage_bucket=stage_bucket,
+    timeline_insight=insight,
+    products=products,
+    follow_up_prompt=follow_up,
+    refused=False,
+    disclaimer="These are product suggestions for comfort — please consult your doctor if symptoms persist." if is_mild_medical else None
+)
+
+    # -----------------------------
+    # 🧠 MEMORY (AFTER response exists)
+    # -----------------------------
+    product_names = ", ".join([p.name for p in response.products[:3]])
+
+    memory_text = f"""
+    {response.timeline_insight.headline}.
+    {response.timeline_insight.body}
+
+    Recommended: {product_names if product_names else "No specific products"}.
+    """
+
+    add_message(user_id, "assistant", memory_text.strip())
+
+    # -----------------------------
+    # RETURN
+    # -----------------------------
+    return response
