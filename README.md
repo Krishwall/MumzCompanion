@@ -37,4 +37,8 @@ I used ChromaDB over Pinecone because it's fully local and free — the tradeoff
 
 ## Evals
 
-Run `python evals/run_evals.py` to execute our 12 comprehensive test cases, validating safe medical refusal, bilingual outputs, and temporal accuracy.
+To execute our 20 comprehensive test cases (validating safe medical refusal, bilingual outputs, and temporal accuracy), run the following command in PowerShell:
+
+```powershell
+$env:PYTHONIOENCODING="utf-8"; uv run python -m evals.run_evals
+```

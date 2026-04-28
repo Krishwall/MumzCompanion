@@ -32,7 +32,9 @@ def run_agent(user_input, date_input):
     # -----------------------------
     safety = classify_safety(user_input)
 
-    if safety.get("is_medical") and safety.get("severity") in ["mild", "urgent"]:
+    # Only refuse for genuinely urgent medical concerns.
+    # Mild discomforts (back pain, swelling, etc.) are fine — we recommend products for those.
+    if safety.get("is_medical") and safety.get("severity") == "urgent":
         return MumzCompanionResponse(
             input_language=lang,
             stage_bucket=stage_bucket,
@@ -45,9 +47,12 @@ def run_agent(user_input, date_input):
             products=[],
             follow_up_prompt="",
             refused=True,
-            refusal_reason="This sounds like a medical concern. Please consult your pediatrician.",
+            refusal_reason="This sounds like a serious medical concern. Please consult your doctor or pediatrician.",
             disclaimer="We do not provide medical advice."
         )
+
+    # Track mild medical flag so we can add a disclaimer to the response
+    is_mild_medical = safety.get("is_medical") and safety.get("severity") == "mild"
 
     # -----------------------------
     # INTENT EXTRACTION
@@ -117,5 +122,6 @@ def run_agent(user_input, date_input):
         timeline_insight=insight,
         products=products,
         follow_up_prompt=follow_up,
-        refused=False
+        refused=False,
+        disclaimer="These are product suggestions for comfort — please consult your doctor if symptoms persist." if is_mild_medical else None
     )

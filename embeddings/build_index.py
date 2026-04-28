@@ -10,7 +10,7 @@ def build_index():
         client.delete_collection("products")
     except:
         pass
-    collection = client.create_collection("products")
+    collection = client.create_collection("products", metadata={"hnsw:space": "cosine"})
 
     with open("d:/MumzCompanion/data/catalog.json", encoding="utf-8") as f:
         data = json.load(f)

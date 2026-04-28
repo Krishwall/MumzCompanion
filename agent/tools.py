@@ -6,11 +6,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Groq provides an OpenAI-compatible API, so we use the standard OpenAI client.
 client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY", "dummy"),
-    base_url=os.getenv("OPENAI_BASE_URL")
+    api_key=os.getenv("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1"
 )
-MODEL = os.getenv("LLM_MODEL", "gpt-3.5-turbo")
+# Use a fast Groq model instead of gpt-3.5-turbo
+MODEL = os.getenv("LLM_MODEL", "openai/gpt-oss-120b")
 
 def detect_language(text):
     try:
@@ -23,7 +25,13 @@ def classify_safety(query):
     if not query:
          return {"is_medical": False, "severity": "none"}
     prompt = f"""
-    Analyze the following user query and determine if it is a medical question (e.g., asking for treatment of fever, rashes, illness, or medical advice).
+    Analyze the following user query in the context of a pregnancy/baby product recommendation app.
+
+    Classify severity as:
+    - "none": Not medical at all (e.g., "I need a stroller", "show me cribs").
+    - "mild": Common pregnancy/postnatal discomforts where PRODUCT recommendations are appropriate (e.g., "back pain" → support pillow, "swollen feet" → compression socks, "trouble sleeping" → maternity pillow). These are NOT medical emergencies.
+    - "urgent": Genuinely dangerous medical concerns that require a doctor (e.g., "my baby has a high fever", "bleeding during pregnancy", "what medication should I take", "my baby won't stop vomiting").
+
     Return JSON format exactly like: {{"is_medical": true/false, "severity": "none"|"mild"|"urgent"}}
     Query: "{query}"
     """
