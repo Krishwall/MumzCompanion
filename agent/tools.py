@@ -12,7 +12,7 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1"
 )
 # Use a fast Groq model instead of gpt-3.5-turbo
-MODEL = os.getenv("LLM_MODEL", "openai/gpt-oss-120b")
+MODEL = os.getenv("LLM_MODEL", "llama-3.1-8b-instant")
 
 def detect_language(text):
     try:
