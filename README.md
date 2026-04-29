@@ -4,6 +4,8 @@ A **timeline-aware, multilingual product discovery agent** for expectant and new
 
 A mom at week 32 and a mom with a 6-month-old have almost zero product overlap — yet they typically get identical recommendations on most e-commerce platforms. MumzCompanion solves this by making her **stage the primary context** for all product discovery, so the catalog becomes a living guide that evolves with her journey.
 
+
+Here's the link to the video(walkthrough) : https://drive.google.com/file/d/1wYXEm0IRcX_QGI1h4yzC60wRt081T7Nb/view?usp=drive_link
 ---
 
 ## Setup and Run (Under 5 minutes)
